@@ -42,21 +42,23 @@ function printContactCard(contactIndex) {
   var $h2Name = document.createElement('h2');
   $h2Name.textContent = currentContact.question;
 
-  var $h3Phone = document.createElement('h3');
-  $h3Phone.textContent = currentContact.phone;
+  var $h3Answer1 = document.createElement('h3');
+  $h3Answer1.textContent = currentContact.answer1;
 
-  var $h3Email = document.createElement('h3');
-  $h3Email.textContent = currentContact.email;
+  var $h3Answer2 = document.createElement('h3');
+  $h3Answer2.textContent = currentContact.answer2;
 
   var $nextButton = document.createElement('button');
   $nextButton.textContent = 'Click to see next contact!';
   $nextButton.classList.add('btn');
 
-  $containerDiv.append($h2Name, $h3Phone, $h3Email, $nextButton);
+  $containerDiv.append($h2Name, $h3Answer1, $h3Answer2, $nextButton);
 
   $mainContentContainer.textContent = '';
   $mainContentContainer.append($containerDiv);
 }
+
+
 
 function printEndScreen() {
   // stop timer

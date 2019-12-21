@@ -1,17 +1,17 @@
 var contactList = [
   {
-    question: "current us president",
-    phone: '732.999.9999',
-    email: 'arosenkranz@2u.com'
+    question: "WHO IS THE CURENT U.S. PRESIDENT?",
+    answer1: 'DONALD TRUMP',
+    answer2: 'RYAN RENALDS'
   },
   {
-    question: 'Bodhi',
-    phone: '732.555.5555',
-    email: 'modernsavage@hotmail.com'
+    question: 'WHO PLAYS IRON-MAN/TONY STARK??',
+    answer1: 'WILL SMITH',
+    answer2: 'ROBERT DOWNY JR.'
   },
   {
-    question: 'Emily',
-    phone: '732.743.7878',
-    email: 'emily@em.ily'
+    question: 'WHO STARTED A.G.T.???',
+    answer1: 'SIMON COWELL',
+    answer2: 'JENSON ACKLES'
   }
 ];
